@@ -1,0 +1,63 @@
+.delForm {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.delForm__sel {
+  margin-top: 25px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: purple;
+  border: 1px solid purple;
+  text-align: center;
+  display: block;
+}
+.delForm__btn {
+  margin-top: 25px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: purple;
+  border: 1px solid purple;
+  text-align: center;
+  display: block;
+}
+.delForm__btn:hover {
+  background-color: red;
+  color: white;
+}
+.delForm__warn, .delForm__msg {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 15px;
+  width: 250px;
+  display: inline-block;
+  color: red;
+  text-align: center;
+}
+.delForm__isbtn {
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.delForm__btn1, .delForm__btn2 {
+  border-color: red;
+  color: red;
+  width: 80px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+  font-size: 15px;
+}
+.delForm__btn1:hover, .delForm__btn2:hover {
+  background-color: wheat;
+}
+.delForm__btn2 {
+  color: green;
+  border-color: green;
+}/*# sourceMappingURL=delete.css.map */

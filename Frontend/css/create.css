@@ -1,0 +1,87 @@
+.form {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.divtitle label, pass label {
+  margin: 5px 0;
+  width: 100%;
+  display: block;
+  color: purple;
+  font-size: 26px;
+}
+
+.divtitle input {
+  display: block;
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.divtitle input::placeholder {
+  color: lightblue;
+  font-size: bold;
+}
+
+.pass label {
+  margin: 15px 0 5px 0;
+  width: 100%;
+  display: block;
+  color: purple;
+  font-size: 26px;
+}
+
+.pass input {
+  display: block;
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.pass input::placeholder {
+  color: lightblue;
+  font-size: bold;
+  padding-left: 15px;
+}
+
+#form__cat {
+  margin-top: 15px;
+  display: block;
+  width: 25%;
+  height: 25px;
+  border-radius: 10px;
+  border-color: purple;
+  text-align: center;
+}
+
+option {
+  display: inline;
+  background-color: palegreen;
+  border-radius: 50px;
+}
+
+.createForm__submit {
+  margin-top: 25px;
+  width: 25%;
+  height: 25px;
+  color: purple;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: grabbing;
+}
+
+.notify {
+  color: red;
+  font-size: 25px;
+  margin-top: 20px;
+  display: block;
+}
+
+form label {
+  margin: 15px 0 0 0;
+  width: 100%;
+  display: block;
+  color: purple;
+  font-size: 26px;
+}/*# sourceMappingURL=create.css.map */

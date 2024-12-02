@@ -1,0 +1,55 @@
+.uploadForm {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.uploadForm__sel {
+  margin-top: 25px;
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: purple;
+  border: 1px solid purple;
+  text-align: center;
+  display: block;
+}
+.uploadForm__btn {
+  margin-top: 25px;
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: purple;
+  border: 1px solid purple;
+  text-align: center;
+  display: block;
+}
+.uploadForm__btn:hover {
+  background-color: red;
+  color: white;
+}
+.uploadForm__msg {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 15px;
+  width: 250px;
+  display: inline-block;
+  color: red;
+  text-align: center;
+}
+.uploadForm__file {
+  margin-top: 25px;
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  color: purple;
+  border: 1px solid purple;
+  text-align: center;
+  display: block;
+  font-size: 17px;
+  cursor: pointer;
+}/*# sourceMappingURL=upload.css.map */

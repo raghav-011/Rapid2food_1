@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 100px;
+  &__brandName{
+    width: 340px;
+    height: 100px;
+
+  }
+
+  &__login{
+    color: purple;
+    font-size: 30px;
+    margin-right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+  }
+}
